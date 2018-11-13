@@ -1,0 +1,36 @@
+[
+  '{{repeat(10, 10)}}',
+  {
+    index: '{{index()}}',
+    name: '{{firstName()}} {{surname()}}',
+    isActive: '{{bool()}}',
+    registered: '{{date(new Date(2014, 0, 1), new Date(), "YYYY-MM-ddThh:mm:ss+0000")}}',
+    age: '{{integer(20, 40)}}',
+    gender: '{{gender()}}',
+    eyeColor: '{{random("blue", "brown", "green")}}',
+    favoriteFruit: function (tags) {
+      var fruits = ['apple', 'banana', 'strawberry'];
+      return fruits[tags.integer(0, fruits.length - 1)];
+    },
+    company: {
+      title: '{{company().toUpperCase()}}',
+      email: '{{email()}}',
+      phone: '+1 {{phone()}}',
+      location: {
+        country: '{{random("France", "Italy", "USA", "Germany")}}',
+        address: '{{integer(100, 999)}} {{street()}}'
+      }
+    },
+    tags: [
+      '{{repeat(2,5)}}',
+      '{{lorem(1, "words")}}'
+    ],
+    friends: [
+      '{{repeat(1,4)}}',
+      {
+        index: '{{index()}}',
+        name: '{{firstName()}} {{surname()}}'
+      }
+    ]
+  }
+]

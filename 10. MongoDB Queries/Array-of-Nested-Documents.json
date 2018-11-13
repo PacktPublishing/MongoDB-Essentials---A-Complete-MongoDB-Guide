@@ -1,0 +1,19 @@
+{
+  "name": "Mike",
+  "friends": [
+    {
+      "name": "Lora",
+      "age": NumberInt(23),
+      "registered": true
+    },
+    {
+      "name": "Bob",
+      "age": NumberInt(25),
+      "registered": false
+    },
+    {
+      "name": "Steve",
+      "age": NumberInt(27)
+    }
+  ]
+}

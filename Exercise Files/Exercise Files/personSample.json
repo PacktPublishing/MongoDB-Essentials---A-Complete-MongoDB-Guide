@@ -1,0 +1,19 @@
+{
+  "index": 4,
+  "name": "Alison Farmer",
+  "isActive": false,
+  "age": 33,
+  "gender": "female",
+  "eyeColor": null,
+  "favoriteFruit": "banana",
+  "company": {
+    "title": "OTHERSIDE",
+    "email": "alisonfarmer@otherside.com",
+    "phone": "+1 (902) 572-3954",
+    "location": {
+      "country": "Italy",
+      "address": "356 Newkirk Placez"
+    }
+  },
+  "tags": ["deserunt", "et", "duis", "dolor"]
+}

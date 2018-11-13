@@ -1,0 +1,12 @@
+(REMOTE)
+mongoimport --host <hostname> --username <username> --password <password> --authenticationDatabase <authDb> --db <database> --collection <collection> --file <filename>
+
+(LOCAL)
+mongoimport  --db <database> --collection <collection> --file <filename>
+
+(LOCAL jsonArray)
+mongoimport  --db <database> --collection <collection> --file <filename> --jsonArray
+
+(LOCAL CSV)
+mongoimport  --db <database> --collection <collection> --file <filename> --type=csv 
+

@@ -1,0 +1,16 @@
+(REMOTE)
+mongoexport --host <hostname> --username <username> --password <password> --authenticationDatabase <authDb> --db <database> --collection <collection> --out <filename>
+
+(LOCAL)
+mongoexport  --db <database> --collection <collection> --out <filename>
+
+(LOCAL jsonArray)
+mongoexport  --db <database> --collection <collection> --out <filename> --jsonArray
+
+(LOCAL CSV)
+mongoexport  --db <database> --collection <collection> --out <filename> --type=csv 
+
+(LOCAL with Query)
+mongoexport  --db <database> --collection <collection> --out <filename>  --query '{<query>}' 
+
+

@@ -1,0 +1,12 @@
+(REMOTE)
+mongodump --host <hostname> --username <username> --password <password> --authenticationDatabase <authDb>
+
+(LOCAL)
+mongodump
+
+(REMOTE specific DB and Collection)
+mongodump --host <hostname> --username <username> --password <password> --authenticationDatabase <authDb> --db <dumpDatabase> --collection <dumpCollection> --out <directoryName>
+
+(REMOTE to Archive)
+mongodump --host <hostname> --username <username> --password <password> --authenticationDatabase <authDb> --db <dumpDatabase> --collection <dumpCollection> --archive=<fileName> --gzip
+

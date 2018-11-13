@@ -1,0 +1,4 @@
+
+
+
+mongo "mongodb://<username>:<password>@hostname/database"

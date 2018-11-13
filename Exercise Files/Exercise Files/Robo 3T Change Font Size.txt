@@ -1,0 +1,10 @@
+Change Font size in "Robo 3T"1. Close "Robo 3T"
+
+2. Open "Robo 3T" JSON configuration file(Mac, Linux)  ~/.3T/robo-3t/1.2.1/robo3t.json
+
+(Windows)  C:\Users\<user>\.3T\robo-3t\1.2.1\robo3t.json
+
+3. Change Font size on the following line
+"textFontPointSize" : 24
+
+4. Save File and launch "Robo 3T"
